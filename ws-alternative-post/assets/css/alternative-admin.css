@@ -1,0 +1,62 @@
+/*
+* Admin CSS
+*/ 
+/*Gallery Uploading Css*/
+#alternative_image_gallery .image-gallery { margin: 0;  padding: 0;}
+#alternative_image_gallery .image-gallery li { display: inline-block;  padding: 0 20px 20px 0;  margin: 0;}
+#alternative_image_gallery .image-gallery a { position: relative;  display: block;}
+#alternative_image_gallery .image-gallery a img { display: block;}
+#alternative_image_gallery .image-gallery ul {margin-bottom: 0;}
+#alternative_image_gallery  a.delete.check { display: block !important;}
+#alternative_image_gallery {  width: 100%;float: left;}
+#alternative_image_gallery .thumbnail img { width:100%;height: 100%;}
+#alternative_image_gallery  .add_gallery_images.hide-if-no-js a {text-decoration: none;}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #dcd2d2; 
+    z-index: 99;
+    font-size: 16px;
+    top: 57PX;
+    padding: 5px 5px;
+    width: 90%;
+    background: #fff; 
+    display: none;
+}
+#alternative_custom_meta_box_1 {
+    min-height: 350px;
+}
+.autocomplete-items li {
+    padding: 5px; 
+    display: block;
+    width: 100%;
+}
+.autocomplete-items li a {
+    cursor: pointer;
+}
+
+span.spinner.altpostsearch, .span.spinner.altgroupsearch, .span.spinner.altpostdel{float: none;}
+
+select#alternative-group {
+    width: 36%;
+}
+
+#alternative-search-checklist a.alt-post {
+    text-align: left;
+    display: inline-block;
+    width: 55%;
+}
+#alternative-search-checklist a.alt-post-alternative {
+    text-align: right;
+    display: inline-block;
+    width: 41%;
+}
+
+.alt_subheading{ width: 100%;}
+
+#search-alternative-list .widefat th input{ margin:0px;}
+.added-alternative-list .span.spinner{ float: none!important; }
+.inside table.meta-table  {width: 100%}
+.inside table.meta-table th {text-align: left;}
+.inside table.meta-table input {width: 100%;height: 45px;padding: 5px 5px;}
+.inside table.meta-table th.center-text {text-align: center;} 
